@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>Hey Everybody</title>
+        </head>
+        <body>
+            <h1>Lista de peliculas</h1>
+            <ul>
+            {% for libro in libros %}
+                <li>
+                    {{libro.nombre}} ({{libro.Fecha}})
+                <li>
+            {% endfor %}
+            <ul>
+        </body>
+    <html>
